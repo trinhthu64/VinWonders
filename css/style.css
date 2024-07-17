@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+.container{
+	font-size: 12px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+.top-bar{
+	height:50px;
+	line-height:50px;
+}
+.top-bar a{
+	color:white;
+}
+.top-bar a:hover{
+	color:#FFC113
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	padding: 10px 20px;
+	border-radius: 20px;
+	color:white;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color:white;
+	border-bottom: 4px solid #DC502C
+}
+main{
+	min-height:500px
+}
+#about{
+	min-height:500px;
+}
+footer{
+	min-height:200px
+}
+footer a{
+	color:white;
+}
+footer a:hover{
+	color:#FFC113
+}
+.gach-chan{
+	border-bottom: 2px solid #FFC113
+}
+footer .navbar-nav .nav-item .nav-link:hover{
+	color:#FFC113
+}
+#service a{
+	text-decoration: none;
+	color:#B8258D
+}
+#service a:hover{
+	color:#DC502C
+}
+#news a{
+	text-decoration: none;
+	color:#056CB6
+}
+#news a:hover{
+	color:#FFC113
+}
+.xem-them{
+	height:100px
+}
+#why{
+	width: 100%;
+	min-height: 350px;
+	background-image: url("../images/value.webp");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top
+}
+.hinh{
+	width:100%;
+	position:relative
+}
+.text{
+	position:absolute;
+	color:white;
+	bottom:0;
+	right:0;
+	padding:6px;
+	background-color:rgba(184,37,141,0.50);
+	border-radius: 10px;
+}
